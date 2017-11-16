@@ -4,7 +4,7 @@ header("content-type: application/json;charset=utf-8");
 header("Cache-Control: no-cache, must-revalidate");
 error_reporting(0);
 
-	$listfile=fopen("rsstree.txt",'rb');
+	$listfile=fopen("rsstree.txt",'rb') or exit('{"err":"rss list could not be opened"}');
 	$oku=fread($listfile,filesize('rsstree.txt'));
 	$liste=json_decode($oku,TRUE); //it's toois impotant true param to turn array
 	fclose($listfile);
@@ -29,7 +29,7 @@ error_reporting(0);
 			
 			curl_close($ch); we put this block here if you whish to use*/
 			
-			$data = file_get_contents($adr);
+			$data = file_get_contents($adr) or exit('{"err":"connection failed"}');
 			$reg1="/<item(.*)item>/s";  //prepare to get the block of first item to last item element
 			$reg2="/<title>(.+?)<\/title>/s"; // prepare to have an array of title elements
 			$reg3="/<link>(.+?)<\/link>/s"; // prepare to have an array of link elements
