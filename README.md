@@ -7,8 +7,9 @@ PROJECT FILES
 - rssread.php 	: the main page which is working as a single page app
 - rssjson.php 	: It parses  xml feeds and encode as json (title, description and link tags)
 - rsstree.txt 	: json formated feed adresses
-- scripting 	 
-        - sinif.css a simple jss library including dom manupaliton an ajax classes
+- scripting 
+
+        - sinif.js a simple js library including dom manupaliton an ajax classes
         - rssoku.js for ajax proccess
 
 ATTENTION 
