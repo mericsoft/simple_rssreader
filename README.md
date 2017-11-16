@@ -1,6 +1,6 @@
-SIMPLE RSS READER
+
 INTRO 
-	This is a very simple example which aims to show how to xml based files convert to json format. Thats because We prefered regex  instead of xml parsers for php.
+- This is a very simple example which aims to show how to xml based files convert to json format. Thats because We prefered regex  instead of xml parsers for php.
 
 
 PROJECT FILES
@@ -8,9 +8,10 @@ PROJECT FILES
 - rssjson.php 	: It parses  xml feeds and encode as json (title, description and link tags)
 - rsstree.txt 	: json formated feed adresses
 - scripting 	 
-	- sinif.css a simple jss library including dom manupaliton an ajax classes
-	- rssoku.js for ajax proccess
+        - sinif.css a simple jss library including dom manupaliton an ajax classes
+        - rssoku.js for ajax proccess
+
 ATTENTION 
-	You need to set a rewrite rule in your web server to turn rssjon.php?ad=xxx to rssjson/xxx
+- You need to set a rewrite rule in your web server to turn rssjon.php?ad=xxx to rssjson/xxx
 DEMO VIDEO
-	https://youtu.be/d1nssPtDD0M
+- https://youtu.be/d1nssPtDD0M
