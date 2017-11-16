@@ -9,10 +9,11 @@ PROJECT FILES
 - rsstree.txt 	: json formated feed adresses
 - scripting 
 
-        - sinif.js a simple js library including dom manupaliton an ajax classes
+        - sinif.js a simple js library including dom manupaliton and ajax classes
         - rssoku.js for ajax proccess
 
 ATTENTION 
 - You need to set a rewrite rule in your web server to turn rssjon.php?ad=xxx to rssjson/xxx
+
 DEMO VIDEO
 - https://youtu.be/d1nssPtDD0M
