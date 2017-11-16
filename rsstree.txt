@@ -1,0 +1,7 @@
+{"cnnint":"http://rss.cnn.com\/rss\/edition.rss",
+"bbc":"http://feeds.bbci.co.uk\/news\/rss.xml?edition=uk#",
+"cumhuriyet":"http://www.cumhuriyet.com.tr\/rss\/1.xml",
+"eurosport":"https://tr.eurosport.com/rss.xml",
+"haberturk":"http://www.haberturk.com/rss/manset.xml",
+"hurriyet":"http://www.hurriyet.com.tr/rss/anasayfa"
+}
